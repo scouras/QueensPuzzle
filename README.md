@@ -1,7 +1,7 @@
 Introduction
 ============
 
-Since this is a public git repo, I'll avoid saying too much about the project here. Hopefully helps avoid having the problem show up with Google search.
+Since this is a public git repo for a semi-private project, I'll avoid saying too much here. Hopefully helps avoid having the challenge problem show up with Google search.
 
 
 Execution
