@@ -22,8 +22,6 @@ public class Board {
   /** Size of board in both x- and y- dimensions */
   int N;
   long processedRaw = 0;
-  float processedPercent = 0.0f;
-
 
   /** First free column on the board */
   int x;
@@ -201,14 +199,14 @@ public class Board {
 
     // Start with some progress stats
     F.format("[%1$tT.%1$tL] (%2$.3fs)", now, elapsed);
-    F.format("  |  %,d raw  |  %.2f%% ", processedRaw, processedPercent);
+    F.format("  |  %,d raw", processedRaw);
     F.format("  |  Queens: %d / %d\n", queens.size(), mostQueensSeen);
     if (N > MAX_DISPLAY_BOARD) {
       return sb.toString();
     }
 
     // Top Header
-    String[] attackStrings = {" ", "", "+", "*", "X", "#"};
+    String[] attackStrings = {" ", ".", "+", "*", "X", "#"};
 
     F.format("\n\n%5s | ", "");
     for (int j = 0; j < N; j++) {
@@ -306,6 +304,8 @@ public class Board {
             LOG.warn("Queens %d and %d along negative diagonal %d", i, j, qi.n);
             return QueenStatus.BAD;
           }
+
+          // TODO: cross check colinearity as well
         }
       }
     }

@@ -1,57 +1,115 @@
+Introduction
+============
+
+Since this is a public git repo, I'll avoid saying too much about the project here. Hopefully helps avoid having the problem show up with Google search.
 
 
-```[04:08:22.068] (774.000s)  |  35,915,250 raw  |  0.00%   |  Queens: 50 / 50
- 
- 
-       |  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 
-   ____|_______________________________________________________________________________________________________________________________________________________
-     0 |  +  +  +  +  +  +  +  +  +     +  *  +  +  *  *  +  +  *  *  X     *  +  +  X  +  +  + Q29 X  +  +        *  *  #  *  *  +  *  #  +  *  *  *  #  X  * 
-     1 |  +  +  +  +  +  +  +  +  +  +     *     X  *  +  *  *  * Q19 +  +  *  +  +  *  +  +  *  X  +     +  +  +  #  *  X  *  *  +  *  X  *  *  X  *  #  X  + 
-     2 |  +  +  +  +  +  +  +  +  +  *  +     *  +  +  +  *  *  *  *  +  X  +  +  #        *  X  X  +  X    Q33 *  X  +  *  *  *  X  +  X  *  +  +  *  *  *  * 
-     3 |  +  +  +  +  +  +  +  +  *  +  +  +  +  +     * Q16 *  *  +  *  *  *  *  *  +  *  +  +     +  +  #  *  #  *  *  *  +  #  *  *  *  +  #  *  X  *  +  + 
-     4 |     +  +  +  +  +  +  +  +  *  X  *        *  +  *  *  *  *  + Q21 *  +  +  *  *  +  +  +  +  *  #  *  *  X  X  X  +  *  *  X  +  +  *  *  *  +  +  * 
-     5 |  +     +  +  +  +  +  +  +  *  *  +  *  +  +  *     X  *  +  X  *  *  *  *  *  *  +  +     *  *  #  #  #  +  *  #  X  *  * Q41 #  +  +  *  X  *  +  + 
-     6 |  +  +     +  +  +  +  * Q08 *  +  +  X  *  +     *  +  +  *  X  +  +  X  *  +  +  +  +  *  *  #  +  *  #  *  *  *  +  +  *  X  *  *  +  X  *  *  X  * 
-     7 |  +  +  +     +  +  +  *  *  +  +  *  *  *  +     +  +  *  X  +  +  X  X  +  +  *  *  +  *  *  +  #  +  X  X  X  +  X  #  *  +  *  #  *  *  *  * Q48 + 
-     8 |     +  +  +     +  * Q07 +  *  *  *  *  +  +  *     +  *  +  +  *  X  *  X  +  *  *  X  +  X  +  *  *  +  X  #  *  +  X  +  X  *  +  X  #  +  *  +  # 
-     9 |  +     +  +  +  +  *  +  +  *  *  X  +  +  *  +  *  +  +  +  *  #  *  *  *  *  X  X  *  #  * Q31 *  X  *  X  X  *  X  *  *  +  *  *  *  *  #  *  *  + 
-    10 |     +     +  X  *     +  *  *  *  +  +  *  +  *  *  *  *  X Q20    +  +  +  #  X  X  *  *  *  *  *  *  X  *  *  *  X  *  X  *  +  +  *  *  #  *  +  X 
-    11 |        +  +  *  +  +  +  *  *  +  +  *  +  * Q15 *  *  *  +  +  +  +  *  *  *  *  *  X  X  *  *  +  X  X  X  X  +  X  X  X  +  *  +  *  +  *  +  X  + 
-    12 |  +     +  *     +  X  *  *  +  +  *  +  *  *  *  +  X  *  +  +  +  *  +  X  *  #  *  X  X  *  *  *  X  X  +  #  X  +  *  *  *  +  X  *  X     +  X Q49
-    13 |  +  *  +     +  +  *  *  +     X  *  *  *  +  +  X  *  +  *  +     +  *  +  #  X  #  *  X  X  * Q32 *  X  *  +  *  *  X  *  X  #  *  *  *  +  +  *  * 
-    14 |  *  *  +     +  *  +  +  +  *     *  *  +  +  *  *  +  *  +  *  *  +  X  *  X  *  * Q28 X  *  *  #  *  *  +  X  *  +  #  +  X  *  *  #  X  *  *  *  X 
-    15 |  *  +  + Q03 +  +  +     *  +  *  +  +  +  *  X  +  +  *  +  X  *  *  +  *  *  *  X  *  *  #  *  *  #  X  X  *  *  *  +  #  +  #  X  *  +  X  +  X  X 
-    16 |  +  +  *  *  *        X     *  *  +     X  *  +  X  +  +  X  *  *  #  *  *  +  *  *  #  X  X  *  X  #  *  X  *  +  #  +  +  *  + Q43 X  X  +  X  *  * 
-    17 |     *  *  *  +  +  +     *  *  +  +  *  +  *  *  *  *  X  *  *  *  *  *  #  X  X  *  +  X  #  X  *  X  X  *  *  *  +  *  +  *  #  *  X Q45 *  X  X  + 
-    18 |  *  +  *  +  + Q05 +  +  +  +     *  *  +     +  *  X  *  X  *  X  *  X  X  *  +  *  *  *  *  X  #  X  *  *  X  *  X  *  *  *  *  *  *  X  *  #  *  X 
-    19 |  *  *     +  *  +  *  *        *  +  +  *  +     X  *  X  X  *  #  X  * Q24 X  *  +  +  *  +  X  *  *  *  *  *  *  X  +  *  *  +  *  X  *  X  *  *  * 
-    20 |  +  +  +  +  +  *  X  +  +  +  *  +     +  +  *  *  *  *  *  #  *  X  *  *  *  *  X  *  +  *  +  *  *  X  * Q36 X  +  X  X  X  *  X  +  *  +  X  *  X 
-    21 |  +     *  +  +  *  +  *  X  *        *     *  X  X  + Q18 *  *  *  *  *  X  X  *  *  X  *  +  X  +  *  X  *  *  +  X  X  #  X  *  X  +  +  *  +  X  # 
-    22 |     *     *  *     +  *  *  +  +        *  +  #  X  *  +  X  *  X  *  X  *  *  *  *  *  *  +  +  *  *  X  *  +  X  *  *  X  *  X  X  X  +  + Q47 *  # 
-    23 |  +     *  *  +  +  +  *  +  +  +  *  *  + Q14 +  *  *  *  +  *  *  *  X  *  *  #  *  *  *  *  +  *  *  +  *  *  X  *  *  X  X  X  X  +  X  #  X  #  * 
-    24 |     +  +  +     X  *     +  *  +  *  *  +  +  *  +  *  X  *  X  X  X  *  X  X  #  *  X  *  #  #  +  *  +  *  *  *  X Q39 X  *  +  #  X  *  X  *  X  + 
-    25 |  +  +        *  +  +  *     +  X  *  *  *  +  +  *  +  *  *  *  +  * Q23 *  *  *  X  X  *  *  #  *     +  #  +  *  *  X  #  *  X  #  #  #  #  X     * 
-    26 |  +        +  +  +     +  +  +  *  *  *  *  *  *  *  X  +  X  *  *  +  *  X  X  *  X  *  X  *  *  +  *  +  *  X  X  *  *  +  *  X  #  #  # Q46 *  #  * 
-    27 |        +  +        +     * Q09 +  X  *  *  X  *  +  +  *  +  X  *  X  +  *  *  *  #  X  X  X  +  X  #  X  *  +  X  +  +  #  X  X  *  #  #  *  *  *  X 
-    28 |  +  +  +     +        *  +  *  *  +  *  *  X  *  X  +  *  *  +  X  X  X  +  X  *  *  X  X  +  #  X  *  X  *  +  *  +  + Q40 *  #  X  *  +  *  *  X  X 
-    29 |  +  *              *  +  *  +  X  *  +  *  *  *  *  X  +  +  *  + Q22 X  *  +  X  *  #  *  *  X  *  *  *  *  X  +  *  *  *  #  *  X  *  *  +  X  X  # 
-    30 |  +     +        +  +  +  *  *  +  *  *  *  X  X  *  X  *  *  +  #  +  *  #  X  +  *  *  *  *  *  *  X  *  X  + Q37 +  *  *  #  X  +  *  +  *  *  +  + 
-    31 |  +        +  +  +  +  +  +  +  *  *  *  *  +  *  *  *  *  X  +  *  X  X  X  X  *     *  *  X  *  X  * Q34 X  *  *  *  X  *  X     X  +  X  +  +  +  + 
-    32 |     +     *  *  +  +  +  +  +  +  *  +  X  X  +  X Q17 X  X  *  +  +  *  *  *  *  X  +  *  *  *  *  *  +  *  X  X  X  *  X  X  *     *  *  +  +  *  * 
-    33 |  +     *  +  +  X  +  +  +  +  +  +  X  +  X  X  *  *  *  *  *  *  +  +  X     X Q27 *  +  *  X  X  X  *  X  *  X  *  #  *        *     *  *  +  #  * 
-    34 |  +  *  +  *  +  +  *  +  +  +  +  +  + Q13 +  X  *  +  *  *  *  *  *  +     *  +  X  *  X  X  *  +  *  *  *  X  #  *  +  +  X  *  +  *     +  *  X  * 
-    35 |  +  *  *  +  *  +  +  *  +  +  +  +  +  *  *  +  *  *  *  *  *  X  *  +  +  X  *  *  X  *  X     X  X  * Q35 X  *  +  +  +  *  X  +  +  *  #  #  *  + 
-    36 |  +  + Q02 *  +  *  +  +  *  +  +  +  +  *  X  X  *  X  *  +  *  *  +  *  X  +  +  X  *  *  +  X  +  *  *  *  X  *  +  X  X  *  X  +  X  *  *  +  *  * 
-    37 |  *  +  +  * Q04 +  *  +  +  *  +  +  *  +  *  +  *  +  *  *  +  *  *  X  *  #  *  +  X  *  X  *  #  *  *  X  +  *  #  #  +  +  +  X  *  *  +  #     * 
-    38 |  +  *  +  +  *  *  *  *  +  +  *  +  +  *  +  *  +  *  *  X  +  *  *  *  *  *  *  +     *  *  X  *  X  *  +  X  +  X  *  +  *  *  * Q44 X  +  *  *  + 
-    39 |  +  +  *  +  +  *  *  +  X  +  +  *  +  +  +  X  +  +  *  +  X  *  +  X  * Q25 *  *  *  +  #  *  *  *  *  +  X  *  X  +  +  +  #  *  X  *  #  *  +  + 
-    40 |  +  +  +  *  +  +  *  *  +  *  *  + Q12 +  +  +  *  +     *  *  *  X  +  *  *  *  *  *  +  +  *  +  +  +  *  +  +  #  *  *  X  *  #  *  *  #  +  *    
-    41 |  +  +  +  +  *  +  +  *  *  +  *  +  *  *  +  +  *  +  +  +  X  +  *  *  *  +  *  *  X  X  +  *  +  +  *  X  +  X  *  X  X  X Q42 *  +  +  X  +  X    
-    42 |  *  +  +  +  +  *  +  +  *  *  + Q11 +  +  X  +     X  +  +  +  X  +  *  +  *  *  *  *  X  X     +  *  +  +  *  +     #  *  *  +  +  *  *  X  *  *  + 
-    43 |  +  *  +  +  +  +  *  +  +  *  *  +  *  +  +  +  *  *  +  +  *  +  *     *  *  #  *  X  X  +  *  *  +  +  +  *  * Q38 +  #  *  X  +  *  X  *  *  X  * 
-    44 | Q00 +  *  +  +  +  +  *  +  +  *  *  +  *  +  +  *  +  X  +  +  *  X  *  +  *  X  +  *  *  +  +  *  +  +  +     X  #  X  +  *  *  +  *  +  +  *  #  * 
-    45 |  +  *  +  *  +  +  +  +  *  +  +  *  *     *  +  +  X  X  *  *  +  +  *  *  + Q26 X     +  X  *  +  X  +     X  *  *  *  X  X  X  X  +  +  +  *  X  + 
-    46 |  +  +  *  +  *  +  +  +  +  *  +  *  *  *  *  *  *  *  *  *     +  *  +  *  X  *  *  *  + Q30 *  +  *  +  *  *  *     *  +  +     +  *  *  X  +  *  X 
-    47 |  +  +  +  *  +  *  +  +  +  + Q10 +  +  *  *  +  X  +  *  *  +  +  *  +  *  +  +  +  +  X  *  *  +  *  #  *  *     X  +  *  *  X  +  +  X  *  *  *  X 
-    48 |  *  +  +  +  *  + Q06 +  +  +  +  *  +  +  *  *  +  *     +  #  X  +  +  *  +  +  *  +  +  +     *  *  X  *  X  *  +  X  +  *  +  +  *  *  +  *  *  X 
-    49 |  + Q01 +  +  +  *  +  *  +     +  +  *  +  +  *  *     *  +  *  *  +  +           X  X     *  #  *  *  *  *  X  *     X  *  +  *  X  +  +  X  *  +  # ```
+Execution
+=========
+
+The project is managed in [Gradle](https://gradle.org/). The following command *should* work magic:
+* download Gradle
+* detect your Java installation
+* download dependencies
+* build the project
+* execute Puzzle with a standard board size of 8x8
+
+`./gradlew run --args 8`
+
+If you prefer your IDE, the board size can be configured by setting `Puzzle.N = 10` in `Puzzle.java`.
+
+At current levels of optimization, N=50 is reliably solved within seconds to minutes. N=100 has yet to complete. [Somewhere in between](https://en.wikipedia.org/wiki/Argument_to_moderation) lies [exponentiation](https://en.wikipedia.org/wiki/Exponentiation#Power_functions).
+
+
+Output
+======
+
+The current board is printed to the console periodically (every 5 seconds), or when interesting events happen (i.e. new max depth achieved).  The status line includes a timestamp, elapsed time, count of board positions evaluated, and current/maximum number of queens placed.
+
+The diagram shows the placement of each Queen (QXX) and the approximate level of attack on each empty square (increasing as `. + * X #` up to 5 attacks). To avoid spamming your terminal board display is disabled when `N > MAX_DISPLAY_BOARD` (default 100).
+
+When (if) the program finishes, a complete reevaluation is performed, and the status is printed. Only board sizes 2 and 3 have no solution, at least for the standard problem. N=5 and 6, and likely others, have no solution in the extended problem (according to this program, anyway).
+
+
+```
+# In Progress...
+
+[06:38:58.589] (1.000s)  |  4 raw  |  Queens: 4 / 4
+
+
+      |  0  1  2  3  4  5  6  7
+  ____|_________________________
+    0 | Q00 .  .  .  .  +  .  .
+    1 |  .  .        .        .
+    2 |     .  .  .        .  .
+    3 |  +  . Q02 +  .  +  +  .
+    4 |     +     .  +  .     .
+    5 |  .     .  .  +  +
+    6 |  +  .  + Q03 +  +  +  .
+    7 |  . Q01 +  .  +  .  +  +
+ ```
+
+```
+# Solved!
+
+[06:38:58.641] (1.000s)  |  139 raw  |  Queens: 8 / 8
+
+
+      |  0  1  2  3  4  5  6  7
+  ____|_________________________
+    0 |  +  +  *  +  + Q05 *  +
+    1 |  .  *  + Q03 *  *  *  +
+    2 | Q00 .  *  *  *  *  .  *
+    3 |  .  *  +  * Q04 +  *  .
+    4 |  *  +  *  +  +  *  + Q07
+    5 |  * Q01 +  +  +  *  *  *
+    6 |  +  *  +  +  +  + Q06 +
+    7 |  +  . Q02 +  +  *  +  +
+ ```
+
+```
+# Interesting patterns emerge with larger boards
+
+[06:58:54.022] (1.000s)  |  10 raw  |  Queens: 10 / 10
+
+
+      |  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+  ____|____________________________________________________________________________
+    0 |  +  .  .  +  +  . Q06 +  .  .  .  .  +  *  .  *  .  .  +  .  .  *  +  +  +
+    1 |     .     .  .  .     .           .  .     .              .  .     .  .  .
+    2 |  .  . Q02 .  +  +  +  .  +  .  *  *  +  +  .  *  +  +  .  +  .  +  +  +  .
+    3 |  .  .     +        .        +  .     .        .        .     .  .  .     .
+    4 |  .  .  .     .     .  .  .  .  +  +  .  +           .     .  .  .     +
+    5 |     .  .        .     .  +     +  +     .        .     .  .  .     .
+    6 |  +  .  .  +  .  .  *  +  . Q09 +  .  +  .  .  +  .  +  +  +  .  +  .  .  .
+    7 |  .           .  .  .  .  .     .        .  .     .  .  .     .
+    8 |  +  +  .  .  + Q05 .  +  +  *  +  *  .  +  +  *  +  +  +  +  .  .  .  .  .
+    9 |     .  .  .  .     +        .  .     *     .  +  .     .
+   10 |        +  +     .  .  .  .     .  +     +  .  .  +  .
+   11 |     .  .  .  +           +  .  .  .  .  .  +     .  .
+   12 | Q00 +  .  +  +  +  .  *  .  *  .  +  X  *  .  *  .  .  +  .  .  .  .  .  .
+   13 |  .  .  .        .  .     .     +  .  .  .  .     .        .
+   14 |  .  +  +  .  .  .  * Q07 +  +  +  *  .  *  +  .  .  +  .  .  +  .  .  +  .
+   15 |  .        .        .  .  +  .  .     +        .        .        .
+   16 |  .  .  .  .  +  *  .  + Q08 X  .  +  .  +  *  .  +  .  .  +  .  .  +  .  .
+   17 |  .           .  .  .  .  +  .  *           .        .        .     .  .
+   18 |     .     .  .  .  +  .     +  +  .  .        +        .  .     +        .
+   19 |  .     +     .  .  .  .  .        .  .     .     +        .        .
+   20 |  .  *  . Q03 +  +  .  +  +  +  +  +  +  *  .  .  *  +  .  .  +  .  .  +  .
+   21 |  .     +  .  +     .        .  .        .  .           +        .        .
+   22 |     .  .  +     +     .        .  .  .     .  .     .     .  .     .
+   23 |  *  +  +  . Q04 .  +  .  .  .  +  *  .  .  .  +  +  .  .  .  +  .  +  +  .
+   24 |  + Q01 .  +  .  +  .  +  .  +  .  +  *  +  .  .  +  +  +  .  .  +  .  .  *
+```
+
+
+Implementation Notes
+====================
+
+Overall architecture is one of [Constraint Satisfaction](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem) with aggressive [dead-end elimination](https://en.wikipedia.org/wiki/Dead-end_elimination). Queens are placed one at a time, starting in the left hand column and progressing to the right. As each queen is placed, attack vectors are calculated and added to the board. For the next column, only rows with 0 attacks are evaluated as options. If there are no options (or all have failed), the last queen retreats and her attacks are subtracted.
+
+Smart Queen placement is critical, so there are 4 strategies implemented to prioritize which position to try first. NAIVE (enumerated order), HERMIT (furthest from the previous Queen), STALKER (closest...), and RANDOM. It turned out that, for any significant N, RANDOM was the fastest by orders of magnitude. Even if the others could optimize local placement, they soon fell into very deep traps. Detecting and escaping these traps, perhaps by switching strategies at the right time, is difficult and beyond the scope of the project.
+
+A small test suite is included, mostly created while debugging. It is by no means comprehensive at this time.
+
+
