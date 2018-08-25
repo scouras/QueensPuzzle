@@ -100,24 +100,7 @@ public class Line {
     }
     LOG.debug("Base <{},{}>  Min <{},{}>   Max <{},{}>",
         startX, startY, minX, minY, maxX, maxY);
-
-    /*
-    if (a < 0) { int _y=minY; minY = maxY; maxY = _y; }
-
-    int minXsteps = Math.abs(getStepsX(q1.x, minX));
-    int maxXsteps = Math.abs(getStepsX(q1.x, maxX));
-    int minYsteps = Math.abs(getStepsY(q1.y, minY));
-    int maxYsteps = Math.abs(getStepsY(q1.y, maxY));
-    LOG.debug("Start Steps <{}.{}>   End Steps <{},{}>",
-        minXsteps, minYsteps, maxXsteps, maxYsteps);
-
-    if (minXsteps < minYsteps) { minY = getY(minX); }
-    else                       { minX = getX(minY); }
-    if (maxXsteps < maxYsteps) { maxY = getY(maxX); }
-    else                       { maxX = getX(maxY); }
-
-    LOG.debug("Start <{}.{}>   End <{},{}>", minX, minY, maxX, maxY);
-    */
+    
   }
 
 

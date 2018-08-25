@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"net.scouras","l":"Board"},{"p":"net.scouras","l":"Board.QueenStatus"},{"p":"net.scouras","l":"BoardTest"},{"p":"net.scouras","l":"Line"},{"p":"net.scouras","l":"LineTest"},{"p":"net.scouras","l":"Puzzle"},{"p":"net.scouras","l":"Puzzle.Strategy"},{"p":"net.scouras","l":"PuzzleTest"},{"p":"net.scouras","l":"Queen"},{"p":"net.scouras","l":"QueenTest"}]
