@@ -17,7 +17,7 @@ version '1.0'
 group 'net.scouras'
 
 // Define the main class for the application
-mainClassName = 'Puzzle'
+mainClassName = 'net.scouras.Puzzle'
 
 dependencies {
     // This dependency is found on compile classpath of this component and consumers.
