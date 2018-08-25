@@ -1,11 +1,12 @@
 package net.scouras;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-
-import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.LogManager;
 
 import static net.scouras.Board.QueenStatus;
 
@@ -30,7 +31,7 @@ public class Puzzle {
   /**
    * Size of board to solve
    */
-  public static final int N = 50;
+  public static int N = 10;
 
   /**
    * Strategies for optimizing Queen placement.
@@ -46,6 +47,12 @@ public class Puzzle {
   Strategy strategy = Strategy.RANDOM;
 
   public static void main(String[] args) {
+
+    LOG.trace("MAIN: {}", Arrays.toString(args));
+    if (args.length > 0) {
+      N = Integer.parseInt(args[0]);
+    }
+
     LOG.info("Creating New Board");
     Puzzle P = new Puzzle();
     Board B = new Board(N);
